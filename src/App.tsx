@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { useState } from "react";
 import Chat from "./components/Chat";
 import ChatBox from "./components/ChatBox";

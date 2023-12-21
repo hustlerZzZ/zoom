@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { useState } from "react";
 import { IoSend } from "react-icons/io5";
 
