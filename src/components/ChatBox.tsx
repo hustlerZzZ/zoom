@@ -15,7 +15,7 @@ function ChatBox({ setChatsArray }) {
         <div className="flex relative">
             <input
                 type="text"
-                className="py-2 w-96 pl-4 rounded-lg"
+                className="py-2 w-96 pl-4 rounded-lg border border-gray-300"
                 placeholder="Enter Chat"
                 value={chat}
                 onChange={(e) => setChat(e.target.value)}

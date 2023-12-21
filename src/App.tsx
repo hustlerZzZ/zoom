@@ -17,9 +17,9 @@ function App() {
     };
 
     return (
-        <div className="flex p-8 h-dvh rounded-lg">
-            <div className="bg-yellow-400 flex-grow flex flex-col items-center justify-between py-8">
-                <div className="flex flex-col h-[800px] overflow-y-scroll">
+        <div className="bg-gray-100 flex p-8 h-dvh rounded-lg">
+            <div className="flex-grow flex flex-col items-center justify-between py-8">
+                <div className="flex w-96 flex-col h-[800px] overflow-y-scroll">
                     {chatsArray.length === 0 ? (
                         <h2>No Chat Found</h2>
                     ) : (
@@ -33,12 +33,12 @@ function App() {
                         ))
                     )}
                 </div>
-                <div>
+                <div className="mt-4">
                     <ChatBox setChatsArray={setChatsArray} />
                 </div>
             </div>
-            <div className="bg-red-400 flex-grow flex flex-col items-center justify-between py-8">
-                <div className="flex flex-col h-[800px] overflow-y-scroll">
+            <div className="bg-gray-100 flex-grow flex flex-col items-center justify-between py-8">
+                <div className="flex w-96 flex-col h-[800px] overflow-y-scroll">
                     {greaterThan5.length === 0 ? (
                         <h2>No Chat Found</h2>
                     ) : (
@@ -50,8 +50,8 @@ function App() {
                     )}
                 </div>
             </div>
-            <div className="bg-gray-400 flex-grow flex flex-col items-center justify-between py-8">
-                <div className="flex flex-col h-[800px] overflow-y-scroll">
+            <div className="bg-gray-100 flex-grow flex flex-col items-center justify-between py-8">
+                <div className="flex w-96 flex-col h-[800px] overflow-y-scroll">
                     {greaterThan10.length === 0 ? (
                         <h2>No Chat Found</h2>
                     ) : (

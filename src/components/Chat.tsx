@@ -27,7 +27,7 @@ function Chat({ data, addToBox2, addToBox3 }) {
     }
 
     return (
-        <div className="bg-white py-4 flex flex-col gap-2 w-96 px-6 my-2 rounded-lg">
+        <div className="bg-white py-4 flex flex-col gap-2 w-87 px-6 my-2 rounded-lg border border-gray-300">
             <h2>{data}</h2>
             <div className="flex gap-4">
                 <div className="flex gap-2 justify-center items-center">
